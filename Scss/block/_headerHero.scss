@@ -1,0 +1,164 @@
+.site-header__hero
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.site-header__heroLeft
+{
+    max-width: 510px;
+    width: 100%;
+}
+
+.site-header__heroTitle
+{
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 68px;
+    text-transform: capitalize;
+    color: #002A48;
+    margin-bottom: 4px;
+}
+
+.site-header__heroSubTitle
+{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: #002A48;
+    margin-bottom: 24px;
+}
+
+.site-header__heroText
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242B33;
+    margin-bottom: 34px;
+}
+
+.site-header__heroBtn
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 205px;
+}
+
+.heroBtn__view
+{
+    height: 48px;
+    width: 161px;
+    border: 1.5px solid #003459;
+    border-radius: 57px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #003459;
+    &::after
+    {
+        content: "";
+        width: 20px;
+        height: 20px;
+        background-image: url(../../img/heaederHeroBtn__icon.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+    }
+}
+
+
+.site-header__heroRight
+{
+    position: absolute;
+    bottom: 0;
+    right: -140px;
+}
+.heroBtn__explore
+{
+    width: 163px;
+    height: 48px;
+    background: #003459;
+    border-radius: 57px;
+    cursor: pointer;
+    border: none;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FDFDFD;
+}
+
+
+@media screen and (max-width:1000px) {
+    .site-header__hero
+    {
+        flex-direction: column;
+    }
+
+    .site-header__heroRight
+    {
+        position: static;
+    }
+
+    .site-header__heroBtn
+    {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .site-header__heroTitle
+    {
+        font-size: 44px;
+        line-height: 60px;
+    }
+
+    .site-header__heroSubTitle
+    {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .site-header__heroRight
+    {
+        height: 386px;
+        width: 414px;        
+    }
+}
+
+@media screen and (max-width:400px) {
+    .site-header__heroLeft
+    {
+        text-align: center;
+        overflow-x: hidden;
+    }
+    
+    .site-header__heroTitle
+    {
+        font-size: 26px;
+        line-height: 60px;
+    }
+
+    .site-header__heroSubTitle
+    {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .site-header__heroBtn
+    {
+        flex-direction: column;
+    }
+}
