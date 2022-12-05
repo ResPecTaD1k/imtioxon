@@ -465,7 +465,17 @@ img {
 
 .blockItem {
   width: 280px;
-  height: 378px;
+  height: 425px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background: #FDFDFD;
   -webkit-box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
           box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
@@ -566,6 +576,93 @@ img {
     display: none;
   }
   .blockBottom3 {
+    display: none;
+  }
+}
+.site-hero__innerBtn {
+  width: 248px;
+  height: 34px;
+  background-color: #FCEED5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  gap: 10px;
+  padding: 0 10px;
+}
+.site-hero__innerBtn::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url(/img/prize.svg);
+  display: inline-block;
+}
+
+.site-hero__texts2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.block__innericon {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.blockItem__img2 {
+  width: 88px;
+  height: 64px;
+  background-image: url(../../img/logo-4.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.blockItem__img5 {
+  background-image: url(../../img/logo-5.svg);
+}
+
+.blockItem__img6 {
+  background-image: url(../../img/logo-6.svg);
+}
+
+.blockItem__img7 {
+  background-image: url(../../img/logo-7.svg);
+}
+
+.blockItem__img8 {
+  background-image: url(../../img/logo-8.svg);
+}
+
+.blockItem__img9 {
+  background-image: url(../../img/logo-9.svg);
+}
+
+.blockItem__img10 {
+  background-image: url(../../img/logo-10.svg);
+}
+
+@media screen and (max-width: 1000px) {
+  .site-hero__top2 {
     display: none;
   }
 }

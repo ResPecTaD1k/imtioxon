@@ -69,7 +69,10 @@
 .blockItem
 {
     width: 280px;
-    height: 378px;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: #FDFDFD;
     box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
     border-radius: 12px;
@@ -181,6 +184,87 @@
         display: none;
     }
     .blockBottom3
+    {
+        display: none;
+    }
+}
+
+.site-hero__innerBtn
+{
+    width: 248px;
+    height: 34px;
+    background-color: #FCEED5;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    gap: 10px;
+    padding: 0 10px;
+    &::before
+    {
+        content: "";
+        width: 20px;
+        height: 20px;
+        background-image: url(/img/prize.svg);
+        display: inline-block;
+    }
+}
+
+.site-hero__texts2
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.block__innericon
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blockItem__img2
+{
+    width: 88px;
+    height: 64px;
+    background-image: url(../../img/logo-4.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.blockItem__img5
+{
+    background-image: url(../../img/logo-5.svg);
+}
+
+.blockItem__img6
+{
+    background-image: url(../../img/logo-6.svg);
+}
+.blockItem__img7
+{
+    background-image: url(../../img/logo-7.svg);
+}
+.blockItem__img8
+{
+    background-image: url(../../img/logo-8.svg);
+}
+.blockItem__img9
+{
+    background-image: url(../../img/logo-9.svg);
+}
+.blockItem__img10
+{
+    background-image: url(../../img/logo-10.svg);
+}
+
+@media screen and (max-width:1000px) {
+    .site-hero__top2
     {
         display: none;
     }
