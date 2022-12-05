@@ -1,5 +1,4 @@
-.site-footer
-{
+.site-footer {
     margin: 0 auto;
     max-width: 1440px;
     background-color: #FBEED4;
@@ -7,8 +6,7 @@
     border-radius: 40px 40px 0px 0px;
 }
 
-.footer__topPage
-{
+.footer__topPage {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,8 +17,7 @@
     margin-bottom: 40px;
 }
 
-.footer__title
-{
+.footer__title {
     width: 389px;
     font-weight: 700;
     font-size: 24px;
@@ -29,8 +26,7 @@
     color: #FDFDFD;
 }
 
-.footer__inputPage
-{
+.footer__inputPage {
     width: 707px;
     border-radius: 14px;
     padding: 12px;
@@ -41,8 +37,7 @@
     gap: 12px;
 }
 
-.footer__email
-{
+.footer__email {
     width: 75%;
     height: 48px;
     padding: 14px 28px;
@@ -52,14 +47,13 @@
     line-height: 20px;
     color: #99A2A5;
     border-radius: 8px;
-    &:focus
-    {
+
+    &:focus {
         outline: none;
     }
 }
 
-.footer__btn
-{
+.footer__btn {
     width: 163px;
     height: 48px;
     background-color: #003459;
@@ -73,66 +67,56 @@
 }
 
 @media screen and (max-width:1000px) {
-    .site-footer
-    {
+    .site-footer {
         padding-top: 20px;
     }
 
-    .footer__topPage
-    {
+    .footer__topPage {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .footer__title
-    {
+    .footer__title {
         width: 100%;
         font-size: 20px;
         line-height: 32px;
         margin-bottom: 16px;
     }
 
-    .footer__inputPage
-    {
+    .footer__inputPage {
         width: 100%;
     }
 }
 
 @media screen and (max-width:500px) {
-    .footer__topPage
-    {
+    .footer__topPage {
         padding: 16px;
     }
 
-    .footer__container
-    {
+    .footer__container {
         padding: 16px;
     }
-    .footer__inputPage
-    {
+
+    .footer__inputPage {
         flex-direction: column;
         padding: 12px;
     }
 
-    .footer__title
-    {
+    .footer__title {
         font-size: 15px;
         line-height: 32px;
     }
 
-    .footer__email
-    {
+    .footer__email {
         width: 100%;
     }
 
-    .footer__btn
-    {
+    .footer__btn {
         width: 230px;
     }
 }
 
-.footer__link
-{
+.footer__link {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -140,115 +124,102 @@
     border-bottom: 1px solid #CBD0D1;
 }
 
-.footer__pageLink
-{
+.footer__pageLink {
     display: flex;
     align-items: center;
     gap: 60px;
-    a
-    {
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        color: #00171F;
+
+    li {
+        a {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #00171F;
+        }
     }
 }
 
-.footer__innerLink
-{
+.footer__innerLink {
     display: flex;
     align-items: center;
     gap: 40px;
     margin-bottom: 40px;
 }
 
-.footer__iconLink
-{
+.footer__iconLink {
     width: 24px;
     height: 24px;
     background-image: url(/img/faceBook.svg);
     cursor: pointer;
 }
 
-.twitter
-{
+.twitter {
     background-image: url(/img/twitter.svg);
 }
 
-.instagramm
-{
+.instagramm {
     background-image: url(/img/instaGramm.svg);
 }
 
-.youTube
-{
+.youTube {
     background-image: url(/img/youTube.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 @media screen and (max-width:1000px) {
-    .footer__link
-    {
+    .footer__link {
         flex-direction: column;
     }
 
-    .footer__pageLink
-    {
+    .footer__pageLink {
         width: 100%;
         margin-bottom: 20px;
         justify-content: space-between;
         gap: 0;
     }
 
-    .footer__innerLink
-    {
+    .footer__innerLink {
         margin-bottom: 40px;
     }
 }
 
-.footer__bottom
-{
+.footer__bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.footer__bottomImg
-{
-    width: 115px;    
+.footer__bottomImg {
+    width: 115px;
     height: 40px;
 }
 
-.footer__bottomLink
-{
+.footer__bottomLink {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
 @media screen and (max-width:800px) {
-    .footer__bottom
-    {
+    .footer__bottom {
         flex-direction: column;
         margin-bottom: 20px;
     }
 
-    .footer__bottomText
-    {
+    .footer__bottomText {
         display: none;
     }
 
-    .footer__bottomImg
-    {
+    .footer__bottomImg {
         margin-bottom: 32px;
     }
 
-    .footer__bottomLink
-    {
+    .footer__bottomLink {
         margin-bottom: 8px;
-        a{
+
+        a {
             font-weight: 500;
             font-size: 12px;
             line-height: 18px;
@@ -256,8 +227,7 @@
         }
     }
 
-    .footer__bottomMediaText
-    {
+    .footer__bottomMediaText {
         font-weight: 400;
         font-size: 10px;
         line-height: 16px;
