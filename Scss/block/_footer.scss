@@ -16,6 +16,7 @@
     background-color: #003358;
     border-radius: 16px;
     gap: 2%;
+    margin-bottom: 40px;
 }
 
 .footer__title
@@ -101,7 +102,6 @@
     .footer__topPage
     {
         padding: 16px;
-        margin-bottom: 40px;
     }
 
     .footer__container
@@ -128,5 +128,139 @@
     .footer__btn
     {
         width: 230px;
+    }
+}
+
+.footer__link
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #CBD0D1;
+}
+
+.footer__pageLink
+{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    a
+    {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #00171F;
+    }
+}
+
+.footer__innerLink
+{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer__iconLink
+{
+    width: 24px;
+    height: 24px;
+    background-image: url(/img/faceBook.svg);
+    cursor: pointer;
+}
+
+.twitter
+{
+    background-image: url(/img/twitter.svg);
+}
+
+.instagramm
+{
+    background-image: url(/img/instaGramm.svg);
+}
+
+.youTube
+{
+    background-image: url(/img/youTube.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width:1000px) {
+    .footer__link
+    {
+        flex-direction: column;
+    }
+
+    .footer__pageLink
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .footer__innerLink
+    {
+        margin-bottom: 40px;
+    }
+}
+
+.footer__bottom
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__bottomImg
+{
+    width: 115px;    
+    height: 40px;
+}
+
+.footer__bottomLink
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (max-width:800px) {
+    .footer__bottom
+    {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .footer__bottomText
+    {
+        display: none;
+    }
+
+    .footer__bottomImg
+    {
+        margin-bottom: 32px;
+    }
+
+    .footer__bottomLink
+    {
+        margin-bottom: 8px;
+        a{
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            color: #667479;
+        }
+    }
+
+    .footer__bottomMediaText
+    {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 16px;
+        color: #667479;
     }
 }
