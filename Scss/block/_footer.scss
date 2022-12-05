@@ -1,0 +1,132 @@
+.site-footer
+{
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: #FBEED4;
+    padding-top: 80px;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.footer__topPage
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+    background-color: #003358;
+    border-radius: 16px;
+    gap: 2%;
+}
+
+.footer__title
+{
+    width: 389px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #FDFDFD;
+}
+
+.footer__inputPage
+{
+    width: 707px;
+    border-radius: 14px;
+    padding: 12px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer__email
+{
+    width: 75%;
+    height: 48px;
+    padding: 14px 28px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #99A2A5;
+    border-radius: 8px;
+    &:focus
+    {
+        outline: none;
+    }
+}
+
+.footer__btn
+{
+    width: 163px;
+    height: 48px;
+    background-color: #003459;
+    border-radius: 8px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FDFDFD;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px) {
+    .site-footer
+    {
+        padding-top: 20px;
+    }
+
+    .footer__topPage
+    {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer__title
+    {
+        width: 100%;
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 16px;
+    }
+
+    .footer__inputPage
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .footer__topPage
+    {
+        padding: 16px;
+        margin-bottom: 40px;
+    }
+
+    .footer__container
+    {
+        padding: 16px;
+    }
+    .footer__inputPage
+    {
+        flex-direction: column;
+        padding: 12px;
+    }
+
+    .footer__title
+    {
+        font-size: 15px;
+        line-height: 32px;
+    }
+
+    .footer__email
+    {
+        width: 100%;
+    }
+
+    .footer__btn
+    {
+        width: 230px;
+    }
+}
