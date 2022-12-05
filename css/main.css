@@ -530,6 +530,44 @@ img {
     margin-bottom: 16px;
   }
 }
+.blockBottom {
+  width: 380px;
+  height: auto;
+}
+
+.blockBottom__img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.block__bottomBtn {
+  width: 89px;
+  height: 20px;
+  background: #00A7E7;
+  border-radius: 28px;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 16px;
+  color: #FDFDFD;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.block__bottomText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #242B33;
+}
+
+@media screen and (max-width: 1000px) {
+  .blockBottom2 {
+    display: none;
+  }
+  .blockBottom3 {
+    display: none;
+  }
+}
 .site-hero__friend {
   display: -webkit-box;
   display: -ms-flexbox;
