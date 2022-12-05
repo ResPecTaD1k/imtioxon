@@ -519,4 +519,7 @@ img {
   .site-hero__BottomBtn {
     display: inline-block;
   }
+  .site-hero__title {
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=main.css.map */
