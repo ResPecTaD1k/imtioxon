@@ -1,0 +1,132 @@
+.site-hero__block
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.site-hero__text
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 2px;
+}
+
+.site-hero__title
+{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #003459;
+}
+
+.site-hero__BottomBtn
+{
+    width: 100%;
+    display: none;
+}
+.site-hero__topBtn
+{
+    border: 1.5px solid #003459;
+    border-radius: 57px;
+    padding: 12px 28px;
+    background-color: transparent;
+    cursor: pointer;
+    align-items: center;
+    transition: .3s;
+    &::after
+    {
+        content: "";
+        display: inline-block;
+        width: 12px;        
+        height: 12px;
+        background-image: url(/img/selectIcon.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 16px;
+    }
+    &:hover
+    {
+        border: .1px solid rgba(0, 0, 0, 0.234);
+        box-shadow: 0 0 15px #000;
+    }
+}
+
+.site-hero__blockList
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.blockItem
+{
+    width: 280px;
+    height: 378px;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    padding: 8px;
+    transition: .3s;
+    &:hover
+    {
+        box-shadow: 0px 4px 40px -2px rgba(0, 0, 0, 0.601);
+
+    }
+}
+
+.blockItem__img
+{
+    width: 264px;    
+    height: 264px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.blockItem__title
+{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00171F;
+    margin-bottom: 4px;
+}
+
+.blockItem__text
+{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #667479;
+}
+
+.blockItem__title2
+{
+    margin-bottom: 4px;
+}
+
+@media screen and (max-width:800px) {
+    .site-hero__block
+    {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .site-hero__topBtn
+    {
+        display: none;
+    }
+    .site-hero__BottomBtn
+    {
+        display: inline-block;
+    }
+}
+

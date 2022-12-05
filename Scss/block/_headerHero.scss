@@ -101,11 +101,15 @@
 }
 
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1000px)
+{
     .site-header__hero
     {
         flex-direction: column;
     }
+}
+
+@media screen and (max-width:1000px) {
 
     .site-header__heroRight
     {
@@ -147,7 +151,7 @@
     
     .site-header__heroTitle
     {
-        font-size: 26px;
+        font-size: 36px;
         line-height: 60px;
     }
 
@@ -155,6 +159,11 @@
     {
         font-size: 28px;
         line-height: 38px;
+    }
+    
+    .site-header__heroText
+    {
+        font-size: 14px;
     }
 
     .site-header__heroBtn
