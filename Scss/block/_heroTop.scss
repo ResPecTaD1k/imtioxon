@@ -63,7 +63,7 @@
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 16px;
+    margin-bottom: 60px;
 }
 
 .blockItem
@@ -127,10 +127,15 @@
     .site-hero__BottomBtn
     {
         display: inline-block;
+        margin-bottom: 40px;
     }
     .site-hero__title
     {
         font-size: 30px;
+    }
+    .site-hero__blockList
+    {
+        margin-bottom: 16px;
     }
 }
 
