@@ -598,23 +598,30 @@ img {
 }
 
 .heroFriendBtn__view {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   border: 1.5px solid #003459;
   border-radius: 57px;
   padding: 12px 28px;
   background-color: transparent;
   cursor: pointer;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 .heroFriendBtn__view::after {
   content: "";
   display: inline-block;
-  width: 12px;
-  height: 12px;
-  background-image: url(/img/selectIcon.svg);
+  width: 24px;
+  height: 24px;
+  background-image: url(/img/heaederHeroBtn__icon.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 16px;
